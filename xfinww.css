@@ -3,11 +3,11 @@
     margin: 0;
 }
 
-body{
-    font-family: Montserrat;
+body {
+    font-family: Arial;
 }
 
-.header__container{
+.header__container {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to top, rgb(78, 87, 66) 70%, rgb(0, 0, 0) 30%);
@@ -15,7 +15,7 @@ body{
     height: 300px;
 }
 
-.header__prebar1 img{
+.header__prebar1 img {
     border-radius: 35px;
     width: 75px;
     height: 75px;
@@ -23,7 +23,7 @@ body{
     margin-top: 10px;
 }
 
-.header__preprebar1{
+.header__preprebar1 {
     border: 1px solid white;
     letter-spacing: 3px;
     display: flex;
@@ -33,40 +33,80 @@ body{
     margin-right: 50px;
 }
 
-.header__preprebar1 p{
+.header__preprebar1 p {
     color: white;
     font-size: 30px;
 }
 
-.header__prebar1{
+.header__prebar1 {
     display: flex;
 }
 
-.header__preprebar1 span{
+.header__preprebar1 span {
     font-size: 15px;
 }
+
 
 .header__bar2{
     width: 90%;
     height: 160px;
     margin-inline: 5%;
-    margin-top: 30px;
     background: linear-gradient(to bottom, rgb(39, 45, 33) 60%, rgb(0, 1, 0) 40%);
     border-radius: 20px;
+    margin-top: 25px;
+}
+
+.bar2__prebar1 {
     display: flex;
 }
 
-.header__bar2 img{
+.bar2__prebar1 img {
     margin-left: 10px;
     width: 100px;
     height: 100px;
-    margin-bottom: 250px;
 }
 
-.header__bar2 p{
+.bar2__p1 {
     color: white;
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 15px;
+}
+
+.bar2__p2 {
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.bar2__prebar1 button {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(21, 22, 15);
+    color: rgb(102, 104, 94);
+    font-family: Arial;
+    border: 2px solid rgb(64, 66, 64);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.header__contacts a {
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.header__contacts ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 220px;
 }
