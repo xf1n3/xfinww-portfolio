@@ -115,6 +115,7 @@ body {
     width: 100%;
     height: 1000px;
     background-color: rgb(80, 85, 72);
+    position: relative;
 }
 
 .section1__container{
@@ -124,6 +125,7 @@ body {
     background-color: rgb(225, 226, 223);
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
 }
 
 .section1__languages{
@@ -133,14 +135,16 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    border: 2px solid gray;
 }
 
-.section1__p1{
+.languages__p1{
     color: rgb(137, 141, 108);
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
-.section1__p2{
+.languages__p2{
     color: rgb(137, 141, 108);
 }
 
@@ -148,12 +152,45 @@ body {
     margin-left: 15px;
 }
 
-.section1__p6{
-    margin-top: 20px;
+.languages__p3{
+    font-weight: 500;
+}
+
+.languages__p6{
+    margin-top: 15px;
     color: rgb(137, 141, 108);
 }
 
 .section1__languages span{
     color: black;
     font-weight: 600;
+}
+
+.section1__python{
+    width: 14%;
+    height: 120px;
+    background: linear-gradient(to bottom, rgb(37, 46, 34) 15%, rgb(206, 206, 204) 15%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+}
+
+.python__p1{
+    color: rgb(137, 141, 108);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section1__python p{
+    margin-left: 15px;
+}
+
+.python__p{
+    font-weight: 500;
+}
+
+.section1__column1{
+    margin-left: 25px;
+    margin-top: 25px;
 }
