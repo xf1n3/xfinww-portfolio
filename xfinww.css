@@ -125,3 +125,35 @@ body {
     border-radius: 20px;
     display: flex;
 }
+
+.section1__languages{
+    width: 14%;
+    height: 160px;
+    background: linear-gradient(to bottom, rgb(37, 46, 34) 14%, rgb(206, 206, 204) 14%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1__p1{
+    color: rgb(137, 141, 108);
+    margin-bottom: 15px;
+}
+
+.section1__p2{
+    color: rgb(137, 141, 108);
+}
+
+.section1__languages p{
+    margin-left: 15px;
+}
+
+.section1__p6{
+    margin-top: 20px;
+    color: rgb(137, 141, 108);
+}
+
+.section1__languages span{
+    color: black;
+    font-weight: 600;
+}
