@@ -47,11 +47,11 @@ body {
 }
 
 
-.header__bar2{
+.header__bar2 {
     width: 90%;
-    height: 160px;
+    height: 180px;
     margin-inline: 5%;
-    background: linear-gradient(to bottom, rgb(39, 45, 33) 60%, rgb(0, 1, 0) 40%);
+    background: linear-gradient(to bottom, rgb(39, 45, 33) 70%, rgb(0, 1, 0) 30%);
     border-radius: 20px;
     margin-top: 25px;
 }
@@ -104,32 +104,32 @@ body {
     font-size: 20px;
 }
 
-.header__contacts ul{
+.header__contacts ul {
     display: flex;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 41px;
     margin-left: 220px;
 }
 
-.section1{
+.section1 {
     width: 100%;
     height: 1000px;
     background-color: rgb(80, 85, 72);
     position: relative;
 }
 
-.section1__container{
-    width: 95%;
+.section1__container {
+    width: 90%;
     height: 960px;
-    margin-inline: 2.5%;
+    margin-inline: 5%;
     background-color: rgb(225, 226, 223);
     border-radius: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.section1__languages{
-    width: 134.4px;
+.section1__languages {
+    width: 180px;
     height: 200px;
     background: linear-gradient(to bottom, rgb(37, 46, 34) 14%, rgb(206, 206, 204) 14%);
     border-radius: 10px;
@@ -140,36 +140,36 @@ body {
     z-index: 1;
 }
 
-.languages__p1{
+.languages__p1 {
     color: rgb(137, 141, 108);
     margin-bottom: 15px;
     font-weight: 600;
 }
 
-.languages__p2{
+.languages__p2 {
     color: rgb(137, 141, 108);
 }
 
-.section1__languages p{
+.section1__languages p {
     margin-left: 15px;
 }
 
-.languages__p3{
+.languages__p3 {
     font-weight: 500;
 }
 
-.languages__p6{
+.languages__p6 {
     margin-top: 15px;
     color: rgb(137, 141, 108);
 }
 
-.section1__languages span{
+.section1__languages span {
     color: black;
     font-weight: 600;
 }
 
-.section1__python{
-    width: 134.4px;
+.section1__python {
+    width: 180px;
     height: 120px;
     background: linear-gradient(to bottom, rgb(37, 46, 34) 15%, rgb(206, 206, 204) 15%);
     border-radius: 10px;
@@ -181,29 +181,29 @@ body {
     margin-top: -15px;
 }
 
-.python__p1{
+.python__p1 {
     color: rgb(137, 141, 108);
     font-weight: 600;
     margin-bottom: 15px;
 }
 
-.section1__python p{
+.section1__python p {
     margin-left: 15px;
 }
 
-.python__p{
+.python__p {
     font-weight: 500;
 }
 
-.section1__column1{
+.section1__column1 {
     margin-left: 25px;
     margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
 
-.section1__store{
-    width: 134.4px;
+.section1__store {
+    width: 180px;
     height: 350px;
     background: linear-gradient(to bottom, rgb(37, 46, 34) 5%, rgb(123, 129, 117) 5%);
     border-radius: 10px;
@@ -215,31 +215,31 @@ body {
     margin-top: -20px;
 }
 
-.section1__store p{
+.section1__store p {
     margin-left: 15px;
 }
 
-.store__p1{
+.store__p1 {
     color: rgb(137, 141, 108);
     font-weight: 600;
 }
 
-.store__p2{
+.store__p2 {
     color: rgb(175, 176, 65);
     font-weight: 600;
     font-size: 23px;
     margin-top: 10px;
 }
 
-.store__p3{
+.store__p3 {
     color: white;
     font-weight: 400;
     font-size: 20px;
     margin-top: 10px;
 }
 
-.section1__about{
-    width: 134.4px;
+.section1__about {
+    width: 180px;
     height: 85px;
     background-color: rgb(206, 206, 204);
     border-radius: 10px;
@@ -248,12 +248,44 @@ body {
     border: 2px solid gray;
     position: relative;
     z-index: 2;
-    margin-top: -15px;   
+    margin-top: -15px;
 }
 
-.about__p1{
+.about__p1 {
     margin-top: 20px;
     margin-left: 15px;
     font-weight: 600;
     color: black;
+}
+
+.section1__banner1{
+    height: 500px;
+    width: 1100px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.section1__banner1 img{
+    position: relative;
+    z-index: 1;
+}
+
+.banner1__p1{
+    position: relative;
+    z-index: 2;
+    margin-left: -475px;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+}
+
+.banner1__p1 span{
+    font-weight: 700;
+    color: rgb(127, 127, 127);
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 5px;
 }
