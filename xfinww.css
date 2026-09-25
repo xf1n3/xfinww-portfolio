@@ -155,7 +155,7 @@ body {
 }
 
 .languages__p3 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .languages__p6 {
@@ -192,7 +192,7 @@ body {
 }
 
 .python__p {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .section1__column1 {
@@ -204,7 +204,7 @@ body {
 
 .section1__store {
     width: 180px;
-    height: 350px;
+    height: 515px;
     background: linear-gradient(to bottom, rgb(37, 46, 34) 5%, rgb(123, 129, 117) 5%);
     border-radius: 10px;
     display: flex;
@@ -348,4 +348,68 @@ body {
 
 .banner1__p7 span{
     color: black;
+}
+
+.section1__banner2{
+    height: 350px;
+    width: 525px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.section1__banner3{
+    height: 350px;
+    width: 525px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.section1__precolumn2{
+    display: flex;
+}
+
+.section1__banner2 img{
+    margin-right: 50px;
+}
+
+.banner2__p1{
+    font-size: 25px
+}
+
+.banner2__xfinwed p{
+    position: relative;
+    z-index: 2;
+    white-space: nowrap;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.banner2__xfinwed{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner2__p2{
+    font-size: 40px;    
+}
+
+.banner2__p3{
+    font-size: 14px
+}
+
+.banner2__xfinwed span{
+    color: rgb(127, 127, 127);
+}
+
+.banner2__p4 span{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 6px;
 }
