@@ -186,6 +186,19 @@
   overflow-wrap: anywhere;
 }
 
+.footnote {
+  margin-top: -8px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-muted);
+  text-align: right;
+  opacity: 0.7;
+}
+
+.footnote__heart {
+  color: var(--color-accent);
+}
+
 @media (max-width: 900px) {
   .page {
     background-attachment: scroll;
@@ -249,6 +262,10 @@
 
 .links {
   animation: fade 1s ease 2.4s both;
+}
+
+.footnote {
+  animation: fade 1s ease 2.6s both;
 }
 
 @keyframes card-in {
