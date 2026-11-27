@@ -1,14 +1,14 @@
 # xfinww-portfolio
 
-personal web page for my github profile. A single card with the Type 17 Garde mecha from *Knights of Sidonia*, a short about panel and links to my socials
+personal web page for my github profile. a single card with the type 17 from *Knights of Sidonia*, a short about panel and links to my socials
 
-## Stack
+## stack
 
 - HTML
 - CSS
 - JavaScript
 
-## Structure
+## structure
 
     .
     ├── index.html
@@ -20,7 +20,7 @@ personal web page for my github profile. A single card with the Type 17 Garde me
         ├── t17.png
         └── wallpaper.jpg
 
-## Links
+## links
 
 - Telegram: [@xfinww](https://t.me/xfinww)
 - GitHub: [xf1n3](https://github.com/xf1n3)
